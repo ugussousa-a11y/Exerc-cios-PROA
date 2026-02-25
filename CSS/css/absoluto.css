@@ -1,0 +1,35 @@
+#camada1{
+            position: absolute; /* componente absoluto que esta sobreposto a pagina*/
+            width: 150px;
+            height: 100px;
+            background-color: aqua;
+            border: 5px solid #00f;
+            text-align: center;
+            top: 200px;
+            left:200px;
+         }
+
+        #camada2{
+            position: absolute; /* componente absoluto que esta sobreposto a pagina*/
+            width: 150px;
+            height: 100px;
+            background-color: rgb(163, 32, 106);
+            border: 5px solid rgb(226, 246, 4);
+            text-align: center;
+            top: 400px;
+            left:400px;
+        }
+
+        #camada3{
+             position: absolute; /* componente absoluto que esta sobreposto a pagina*/
+            top: 400px;
+            left:400px;
+            z-index: 3
+    
+        }
+        
+        #camada3 img{
+            width: 100px;
+            height: 100px;
+
+        }
