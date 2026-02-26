@@ -1,0 +1,74 @@
+#fundo{
+    
+    position: relative;
+    width: 860px;
+    height: 860px;
+    background-color: rgb(255, 255, 255);
+    margin: auto; /* a margin auto fica centralizada ao centro */
+    margin-top: 30px;
+}
+
+#camada1{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: rgb(21, 0, 255);
+    text-align: center;
+    padding: 10px; /* espaço para dentro da area */
+    float: left;
+}
+
+#camada2{
+    position: relative;
+    width: 700px;
+    height: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px; /* espaço para dentro da area */
+    float: left;    
+}
+
+#camada3{
+     position: relative;
+    width: 840px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: rgb(10, 144, 17);
+    text-align: center;
+    padding: 10px; /* espaço para dentro da area */
+    clear:left;
+}
+
+
+
+#camada4{
+     position: relative;
+    width: 831px;
+    height: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: rgb(255, 255, 0);
+    border: 5px solid rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px; /* espaço para dentro da area */
+    clear:left;
+}
+
+#camada5{
+     position: relative;
+    width: 840px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color: rgb(119, 129, 119);
+    text-align: center;
+    padding: 10px; /* espaço para dentro da area */
+    clear:left;
+}
+
+

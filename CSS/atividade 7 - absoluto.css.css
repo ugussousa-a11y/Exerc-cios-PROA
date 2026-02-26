@@ -1,0 +1,144 @@
+ #camada1{
+            position: absolute;
+            width: 710px;
+            height: 300px;
+            background-color: rgb(255, 107, 70);
+            color: aliceblue;
+            text-align: center;
+            top: 10px;
+            left: 300px;
+            z-index: 1;
+        }
+
+#camada2{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(250, 130, 100);
+            color: aliceblue;
+            text-align: center;
+            top: 430px;
+            left: 320px;
+            z-index: 1;
+}
+
+#camada3{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(167, 162, 161);
+            color: aliceblue;
+            text-align: center;
+            top: 430px;
+            left: 490px;
+            z-index: 1;
+}
+
+#camada4{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(0, 193, 252);
+            color: aliceblue;
+            text-align: center;
+            top: 430px;
+            left: 660px;
+            z-index: 1;
+}
+
+#camada5{
+            position: absolute;
+            width: 150px;
+            height: 350px;
+            background-color: rgb(95, 103, 106);
+            color: aliceblue;
+            text-align: center;
+            top: 430px;
+            left:830px;
+            z-index: 1;
+}
+
+#camada6{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(7, 187, 253);
+            color: aliceblue;
+            text-align: center;
+            top: 630px;
+            left:320px;
+            z-index: 1;
+}
+
+#camada7{
+            position: absolute;
+            width: 300px;
+            height: 150px;
+            background-color: rgb(250, 130, 100);
+            color: aliceblue;
+            text-align: center;
+            top: 630px;
+            left:500px;
+            z-index: 1;
+}
+
+#camada8{
+            position: absolute;
+            width: 470px;
+            height: 40px;
+            background-color: rgb(236, 233, 233);
+            color: aliceblue;
+            text-align: center;
+            top: 150px;
+            left:415px;
+            z-index: 1;
+}
+
+ #camada9{
+            position: absolute;
+            width: 130px;
+            height: 40px;
+            background-color: rgb(102, 99, 99);
+            color: aliceblue;
+            text-align: center;
+            top: 345px;
+            left:330px;
+            z-index: 1;
+}  
+ 
+ #camada10{
+            position: absolute;
+            width: 130px;
+            height: 40px;
+            background-color: rgb(102, 99, 99);
+            color: aliceblue;
+            text-align: center;
+            top: 345px;
+            left:500px;
+            z-index: 1;
+}  
+
+#camada11{
+            position: absolute;
+            width: 130px;
+            height: 40px;
+            background-color: rgb(102, 99, 99);
+            color: aliceblue;
+            text-align: center;
+            top: 345px;
+            left:670px;
+            z-index: 1;
+}  
+
+#camada12{
+            position: absolute;
+            width: 130px;
+            height: 40px;
+            background-color: rgb(102, 99, 99);
+            color: aliceblue;
+            text-align: center;
+            top: 345px;
+            left:845px;
+            z-index: 1;
+}  
+
