@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Header Preto */
+#topo {
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menu Azul */
+#subtopo {
+    background-color: #0000AA;
+    color: white;
+}
+
+#subtopo ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0;
+}
+
+/* Container das 3 Colunas */
+#conteudo {
+    display: flex; /* Faz as colunas ficarem lado a lado */
+    min-height: 500px;
+}
+
+/* Coluna Lateral Esquerda (Cinza) */
+.links {
+    width: 20%;
+    background-color: #A0A0A0;
+    color: white;
+}
+
+.links li {
+    padding: 10px;
+    border-bottom: 1px solid #888;
+    list-style: none;
+}
+
+/* Coluna Central (Branca) */
+.meio {
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.div-imagem-principal img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.texto {
+    background-color: #E0FFFF; /* Azul clarinho do exemplo */
+    padding: 15px;
+    margin: 20px 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Cards debaixo da imagem principal */
+#cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card {
+    width: 32%;
+    height: 120px;
+    background-color: #ddd; /* Cor de fundo se a imagem falhar */
+}
+
+#card1 { background-image: url('../img/fundo1.jpg'); background-size: cover; }
+#card2 { background-image: url('../img/fundo2.jpg'); background-size: cover; }
+#card3 { background-image: url('../img/fundo3.jpg'); background-size: cover; }
+
+/* Coluna Lateral Direita (Propaganda) */
+.lado_direito {
+    width: 20%;
+}
+
+.lado_direito img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Rodapé */
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
