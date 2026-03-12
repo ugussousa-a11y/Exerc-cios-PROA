@@ -1,0 +1,236 @@
+/* CSS reset */ 
+
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+
+#container{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: blanchedalmond;
+    margin: auto;
+}
+
+#cabecalho_pagina{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex; /*alinhamento */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#menu_superior{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    text-align: left;
+    display:flex ;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#menu_superior a{
+    width: 17%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: blue;
+    color: aliceblue; 
+    padding: 7px;
+   
+}
+
+#menu_superior a:hover{
+    background-color: aliceblue;
+    color: blue;
+    transition: 2s all;
+}
+
+#meio{
+    position: relative;
+    background-color: blueviolet;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#menu_lateral{
+    position: relative;
+    background-color: #c0c0b7;
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+
+#menu_lateral a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    list-style: none;
+    padding: 2px;
+    
+    
+    
+}
+
+#miolo{
+    position: relative;
+    /* background-color: #FFCCFF; */
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#cabecalho_miolo{
+    position: relative;
+    background-color: aliceblue;
+    width: 95%;
+    height: 40px;
+    color: black;
+    font-size: 30px;
+}
+
+#imagem{
+    position: relative;
+    background-color: chocolate;
+    width: 95%;
+    height: 140px;
+}
+
+#imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+#miolo p{
+    position: relative;
+    background-color: rgba(20, 211, 249, 0.789);
+    width: 95%;
+    height: 100px;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+
+#caixa{
+    position: relative;
+    /* background-color: crimson; */
+    width: 95%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixinha{
+    position: relative;
+    background-color: #c0c0b7;
+    width: 30%;
+    height: 110px;
+}
+
+.caixinha img{
+    width: 100%;
+    height: 100%;
+}
+
+aside{
+    position: relative;
+    background-color: #f0f;
+    width: 20%;
+    height: 500px;
+}
+
+aside img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+                                    /*vizualização mobile */
+
+    @media only screen and (max-width:480px){
+        #container{
+            width:98%
+            }
+            #menu_superior{
+                display: flex;
+                flex-direction: column;
+                height: 250px;
+            }
+            #menu_superior a{
+                width: 100%;
+
+            }
+            #menu_lateral, aside, #imagem, #imagem img, p{
+                display: none;
+            }
+            #miolo{
+                width: 100%;
+            }
+            #caixa{
+                /* width: 95%; */
+                height: 420px;
+                display: flex;
+                flex-direction: column;
+            }
+            .caixinha{
+                width: 100%;
+
+            }
+    }
+                                     /*vizualização tablets */
+
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:720px){
+        #container{
+            width: 95%;
+        }
+        #menu_superior{
+            height: 80px;
+            flex-wrap: wrap;
+        }
+        #menu_superior a{
+            width: 33.33%;
+            color: gold;
+        }
+        #menu_lateral, aside{
+            display: none; /* retira o componente do layout */
+        }
+        #miolo{
+            width: 100%;
+        }
+    }
+}
+

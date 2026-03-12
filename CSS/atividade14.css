@@ -1,0 +1,222 @@
+/* CSS reset */ 
+
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: left;
+    background-image: url(/img/guitarra_fundo_body.jpg);
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    
+
+}
+
+#container{
+    position: relative;
+    margin: auto;
+    width: 900px;
+    height: 1300px;
+    background-color: rgba(219, 26, 26, 0.785);
+}
+
+#cabecalho{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0, 255, 0);
+
+}
+
+#cabecalho img{
+    width: 100%;
+    height: 100%;
+}
+
+#vermelho{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: rgba(146, 19, 19, 0.525);
+    
+}
+
+#caixa{
+    
+    position: relative;
+    /*background-color: crimson; */
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixinha{
+    position: relative;
+    background-color: #b0a9a9d5;
+    width: 40%;
+    height: 90%;
+    margin: auto;
+}
+.caixinha h2{
+    font-size: 20px;
+}
+.caixinha p{
+    font-size: 13px;
+    align-items: center;
+}
+
+.caixinha img{
+    width: 100%;
+    height: 100%;
+}
+
+#azul{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: rgb(230, 230, 230);
+    
+}
+
+#caixa2{
+    
+    position: relative;
+    /*background-color: crimson; */
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixinha2{
+    position: relative;
+    background-color: #ffffff;
+    width: 170px;
+    height: 80%;
+    margin: auto;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.caixinha2 p{
+    font-size: 12px;
+}
+#dinheiro{
+    font-size: 15px;
+    color: red;
+}
+
+
+.caixinha2 img{
+    width: 90px;
+    height: 120px;
+}
+
+#laranja{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: rgba(202, 119, 61, 0.603);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.laranja{
+    position: relative;
+    width: 45%;
+    height: 80%;
+    align-items: center;
+    background-color: rgba(255, 127, 80, 0.354);
+    
+}
+
+.laranja iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.laranja h3{
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.laranja p{
+    color: #ffffff;
+}
+#amarelo{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: rgb(232, 181, 13);
+}
+
+#caixa3{
+    
+    position: relative;
+    /*background-color: crimson; */
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    
+}
+
+
+
+/* .caixinha3{
+    position: relative;
+    background-color: #139e18;
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    
+
+
+/* #caixa3 h4{
+    text-align: center;
+    font-size: 15px;
+    color: blue; */
+
+
+#caixa3 img{
+    width: 65px;
+    height: 65px;
+} 
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 15px;
+    color: #ffffff;
+
+}
